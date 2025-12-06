@@ -77,16 +77,12 @@ tooltip label {
     animation-direction: alternate;
 }
 
-label.module {
+box.horizontal.modules-right label {
     padding: 0 10px;
-    box-shadow: inset 0 -3px;
 }
 
-label.module:hover {
+box.horizontal.modules-right label:hover {
     background: #000;
+    border-bottom: 3px solid white;
 }
 
-box.module button:hover {
-    box-shadow: inset 0 -3px #ffffff;
-    background: #000;
-}
