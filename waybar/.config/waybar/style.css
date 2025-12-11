@@ -47,6 +47,7 @@ tooltip label {
 
 #clock {
     background-color: rgb(12, 63, 97);
+    font-size: 20px;
 }
 
 #battery {
@@ -78,13 +79,16 @@ tooltip label {
 
 box.horizontal.modules-left,
 box.horizontal.modules-center,
-box.horizontal.modules-right
-{
+box.horizontal.modules-right {
     border: 1px solid rgb(5, 67, 107);
     border-radius: 10px;
     padding: 1px 16px;
     margin: 1px 2px;
     background-color: rgba(3, 30, 48, 200);
+}
+
+box.horizontal.modules-center {
+    background-color: rgb(12, 63, 97);
 }
 
 box.horizontal.modules-right label {
