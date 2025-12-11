@@ -7,8 +7,7 @@
 }
 
 window#waybar {
-    background: rgba(43, 48, 59, 0.5);
-    border-bottom: 3px solid rgba(100, 114, 125, 0.5);
+    background: transparent;
     color: white;
 }
 
@@ -33,8 +32,8 @@ tooltip label {
 }
 
 #workspaces button.active {
-    background: #64727D;
-    border-bottom: 3px solid white;
+    background: rgb(12, 63, 97);
+    border-bottom: 3px solid rgb(56, 168, 242);
 }
 
 #mode, #clock, #battery {
@@ -47,7 +46,7 @@ tooltip label {
 }
 
 #clock {
-    background-color: #64727D;
+    background-color: rgb(12, 63, 97);
 }
 
 #battery {
@@ -75,6 +74,17 @@ tooltip label {
     animation-timing-function: steps(12);
     animation-iteration-count: infinite;
     animation-direction: alternate;
+}
+
+box.horizontal.modules-left,
+box.horizontal.modules-center,
+box.horizontal.modules-right
+{
+    border: 1px solid rgb(5, 67, 107);
+    border-radius: 10px;
+    padding: 1px 16px;
+    margin: 1px 2px;
+    background-color: rgba(3, 30, 48, 200);
 }
 
 box.horizontal.modules-right label {

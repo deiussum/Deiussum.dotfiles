@@ -10,20 +10,17 @@
         "hyprland/workspaces",
     ],
     "modules-center": [
-        "hyprland/window"
+        "hyprland/window",
+        "clock",
     ],
     "modules-right": [
         "idle_inhibitor",
         "pulseaudio",
-        "network",
         "cpu",
         "memory",
         "temperature",
-        "backlight",
         "keyboard-state",
-        "hyprland/language",
         "battery",
-        "clock",
         "tray",
         "custom/power"
     ],
