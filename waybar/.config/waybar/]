@@ -92,19 +92,12 @@ box.horizontal.modules-center {
 }
 
 box.horizontal.modules-right label {
-    padding: 0 10px 0 5px;
-}
-
-box.horizontal.modules-right widget {
-    border-right: 1px solid rgba(5, 67, 107, 0.9);
-}
-
-box.horizontal.modules-right widget:last-child {
-    border-right: none;
+    padding: 0 10px;
+    border-left: 1px solid rgba(3, 30, 48, 50);
 }
 
 box.horizontal.modules-right label:hover {
-    background-color: rgb(12, 63, 97);
+    background: #000;
     border-bottom: 3px solid white;
 }
 
