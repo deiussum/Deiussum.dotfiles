@@ -12,3 +12,5 @@ set cursorline
 set incsearch
 set showcmd
 
+inoremap jj <ESC>
+
