@@ -33,7 +33,7 @@
         "format-icons": {
             "urgent": "",
             "active": "",
-            "focused": "",
+            "visible": "",
             "default": ""
         }
     },
