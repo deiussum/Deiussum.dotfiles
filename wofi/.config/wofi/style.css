@@ -3,13 +3,13 @@ window {
     border-radius: 10px;
     padding: 1px 16px;
     margin: 1px 2px;
-    background-color: rgb(100, 120, 130);
-    color: #101010;
+    background-color: rgba(26, 26, 26, 0.95);
+    color: #cdcdcd;
 }
 
 #input {
     margin: 5px;
-    border: 1px solid rgb(5, 67, 107);
+    border: 1px solid rgb(14,22,38);
     border-radius: 10px;
     background-color: #242424;
     color: #cdcdcd;
@@ -25,7 +25,6 @@ window {
 
 #scroll {
     margin: 5px;
-    background-color: rgb(5,67,107;
 }
 
 #text {
@@ -33,7 +32,7 @@ window {
 } 
 
 #entry {
-    border-bottom: 1px solid rgb(5, 67, 107);
+    border-bottom: 1px solid rgb(10, 10, 10);
 }
 
 #entry:selected {
