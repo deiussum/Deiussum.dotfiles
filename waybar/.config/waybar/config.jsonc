@@ -23,7 +23,7 @@
         "keyboard-state",
         "battery",
         "tray",
-        "custom/power"
+        "custom/wlogout"
     ],
     // Modules configuration
     "hyprland/workspaces": {
@@ -199,10 +199,15 @@
 		"menu": "on-click",
 		"menu-file": "$HOME/.config/waybar/power_menu.xml", // Menu file in resources folder
 		"menu-actions": {
-			"shutdown": "shutdown",
-			"reboot": "reboot",
+			"shutdown": "systemctl shutdown",
+			"reboot": "systemctl reboot",
             "logout": "hyprctl dispatch exit"
 		}
+    },
+    "custom/wlogout": {
+        "format" : "⏻ ",
+		"tooltip": false,
+        "on-click": "wlogout"
     }
 }
 

@@ -108,3 +108,15 @@ box.horizontal.modules-right label:hover {
     border-bottom: 3px solid white;
 }
 
+menu {
+    background-color: rgba(3, 30, 48, 200);
+    border: 1px solid rgb(5, 67, 107);
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+menuitem label {
+    padding: 4px;
+    font-size: 18px;
+}
+
