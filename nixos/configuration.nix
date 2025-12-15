@@ -240,6 +240,7 @@
     neofetch
     screenfetch
     fastfetch
+    wlogout
   ];
 
   # --- System-Wide Font Configuration ---
