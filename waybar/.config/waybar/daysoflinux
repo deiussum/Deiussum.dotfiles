@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Count number of days since I started to use Linux as my daily driver
+DATESINCE=2024-8-30 
+TODAY=`date +"%Y-%m-%d"`
+
+DAYS=$(( ($(date --date="$TODAY" +%s) - $(date --date="$DATESINCE" +%s) )/(60*60*24) ))
+
+echo "${DAYS}d of Linux" 

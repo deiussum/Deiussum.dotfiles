@@ -8,6 +8,7 @@
     // Choose the order of the modules
     "modules-left": [
         "hyprland/workspaces",
+        "custom/daysoflinux",
         "hyprland/window"
     ],
     "modules-center": [
@@ -208,6 +209,12 @@
         "format" : "⏻ ",
 		"tooltip": false,
         "on-click": "wlogout"
+    },
+    "custom/daysoflinux": {
+        "exec": "$HOME/.config/waybar/daysoflinux",
+        "format": "{}",
+        "interval": 3600
     }
+
 }
 
