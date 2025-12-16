@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Count number of days since I started to use Linux as my daily driver
 DATESINCE=2024-8-30 
