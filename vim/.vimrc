@@ -1,7 +1,6 @@
 set tabstop=4
 set shiftwidth=4
 set expandtab
-set nowrap
 
 syntax on
 filetype on
@@ -13,4 +12,6 @@ set incsearch
 set showcmd
 
 inoremap jj <ESC>
+noremap j gj
+noremap k gk
 
