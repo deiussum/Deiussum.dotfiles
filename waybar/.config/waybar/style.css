@@ -100,6 +100,11 @@ box.horizontal.modules-right widget {
     border-right: 1px solid rgba(5, 67, 107, 0.9);
 }
 
+box.horizontal.modules-left widget > :last-child,
+box.horizontal.modules-right widget > :last-child {
+    padding-right: 0px;
+}
+
 box.horizontal.modules-left widget:last-child, 
 box.horizontal.modules-right widget:last-child {
     border-right: none;
