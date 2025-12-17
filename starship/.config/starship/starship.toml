@@ -56,4 +56,7 @@ deleted_style='bold fg:red bg:#053354'
 style='bold fg:red bg:#053354'
 format='([ \[$all_status$ahead_behind\]]($style))'
 
+[fill]
+symbol=' '
+
 
