@@ -11,7 +11,9 @@ $directory\
 $git_branch\
 $git_metrics\
 $git_status\
-[](fg:#053354 bg:black)
+[](fg:#053354 bg:black)\
+$fill\
+$cmd_duration
 $character"""
 
 # Inserts a blank line between shell prompts
