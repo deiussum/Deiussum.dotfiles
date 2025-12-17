@@ -241,6 +241,7 @@
     screenfetch
     fastfetch
     wlogout
+    starship
   ];
 
   # --- System-Wide Font Configuration ---
