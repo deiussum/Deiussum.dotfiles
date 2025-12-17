@@ -91,19 +91,37 @@ box.horizontal.modules-center {
     background-color: rgb(12, 63, 97);
 }
 
-box.horizontal.modules-right label {
-    padding: 0 10px 0 5px;
-}
 
 box.horizontal.modules-left widget, 
 box.horizontal.modules-right widget {
     border-right: 1px solid rgba(5, 67, 107, 0.9);
 }
 
-box.horizontal.modules-left widget > :last-child,
-box.horizontal.modules-right widget > :last-child {
+box.horizontal.modules-left widget > :last-child {
+    padding-right: 8px;
+}
+
+box.horizontal.modules-left widget > :first-child {
+    padding-left: 5px;
+}
+
+box.horizontal.modules-left widget:last-child > :last-child {
     padding-right: 0px;
 }
+
+box.horizontal.modules-right widget > :last-child {
+    padding-right: 10px;
+}
+
+box.horizontal.modules-right widget > :first-child {
+    padding-left: 5px;
+}
+
+box.horizontal.modules-right widget:last-child > :last-child {
+    padding-right: 0px;
+}
+
+
 
 box.horizontal.modules-left widget:last-child, 
 box.horizontal.modules-right widget:last-child {
