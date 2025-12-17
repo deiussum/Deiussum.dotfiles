@@ -31,4 +31,7 @@ if [ -d "$HOME/scripts" ] ; then
     PATH="$PATH:$HOME/scripts"
 fi
 
-eval "$(starship init bash)"
+if [ -d "$HOME/.config/starship" ] ; then
+    export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
+    eval "$(starship init bash)"
+fi
