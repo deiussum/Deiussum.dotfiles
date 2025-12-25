@@ -28,3 +28,6 @@ if vim.fn.has("nvim-0.10.4") == 1 then
 end
 
 
+require('nvim-treesitter').install({ 'c_sharp', 'markdown' }):wait(3000000)
+
+
