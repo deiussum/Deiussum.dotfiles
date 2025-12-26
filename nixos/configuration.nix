@@ -242,6 +242,7 @@
     fastfetch
     wlogout
     starship
+    ripgrep
   ];
 
   # --- System-Wide Font Configuration ---
